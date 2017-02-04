@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Birds</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+<>
+iojioujio
+<div class="table-responsive" id ="info">
+    <table class="table">
+        <!-- On rows -->
+        <th class="active">Type</th>
+        <th class="success">Count</th>
+        <th class="warning">Price</th>
+        <!-- On cells (`td` or `th`) -->
+        <tr>
+            <td class="active">0</td>
+            <td class="success">0</td>
+            <td class="warning">0</td>
+        </tr>
+    </table>
+</div>
+
+
+<form class ="col-md-6">
+   <h2>Sell</h2>
+    <div class="form-group">
+        <label for="birdType1">Type</label>
+        <input type="bird" class="form-control" id="birdType1" placeholder="What type of bird do you want?">
+    </div>
+    <div class="form-group">
+        <label for="count">Count</label>
+        <input type="count" class="form-control" id="count" placeholder="How many birds do you want?">
+    </div>
+
+    </div>
+    <button type="submit" class="btn btn-default" onclick="sellBird(event)">Sell</button>
+</form>
+
+<form class ="col-md-6">
+    <h2>Add</h2>
+    <div class="form-group">
+        <label for="birdType2">Type</label>
+        <input type="bird" class="form-control" id="birdType2" placeholder="What type of bird do you want?">
+    </div>
+    <div class="form-group">
+        <label for="count2">Count</label>
+        <input type="count" class="form-control" id="count2" placeholder="How many birds do you want?">
+    </div>
+    <div class="form-group">
+        <label for="price">Price</label>
+        <input type="count" class="form-control" id="price" placeholder="What price for bird">
+    </div>
+
+    </div>
+    <button type="submit" class="btn btn-default" onclick="addBird(event)">Add</button>
+</form>
+
+
+<script src="birds.js"></script>
+</body>
+</html>
